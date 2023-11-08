@@ -3,7 +3,7 @@ import pandas as pd
 
 st.sidebar.title('Idioms')
 
-df = pd.read_csv('Vocabulary.xlsx', sep=';', encoding='utf-8-sig')
+df = pd.read_csv('Vocabulary.csv', sep=';', encoding='utf-8-sig')
 
 df = df[df['Idiom'] == True]
 

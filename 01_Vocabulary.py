@@ -3,7 +3,7 @@ import pandas as pd
 
 st.sidebar.title('Vocabulary')
 
-df = pd.read_csv('Vocabulary.xlsx', sep=';', encoding='utf-8-sig')
+df = pd.read_csv('Vocabulary.csv', sep=';', encoding='utf-8-sig')
 
 st.sidebar.markdown("""---""")
 
